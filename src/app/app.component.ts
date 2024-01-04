@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'landing';
+
+  constructor(){
+
+  }
+
+  goRegister(){
+    window.location.href="http://localhost:4201"
+  }
+
 }
